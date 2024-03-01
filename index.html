@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ChatGPT 4 Test</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <div class="form-container">
+        <h1>Comparison of LLM's</h1>
+        <form id="chat-form">
+            <label for="mytext">Enter your message:</label>
+            <input type="text" id="mytext" required>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div class="response-container">
+        <div>
+            <h2>Response (Model 1):</h2>
+            <textarea id="response-model1" rows="10" readonly></textarea>
+        </div>
+        <div>
+            <h2>Response (Model 2):</h2>
+            <textarea id="response-model2" rows="10" readonly></textarea>
+        </div>
+    </div>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
